@@ -69,9 +69,7 @@ function draw() {
   helicopterSprite.depth=helicopterSprite.depth+1;
 
   packageSprite.x= packageBody.position.x 
-  packageSprite.y= packageBody.position.y 
-
-  keyPressed();
+  packageSprite.y= packageBody.position.y
 
   drawSprites();
 }
